@@ -285,9 +285,9 @@ def main():
             else:
                 print("Wrong Input, Input again")
 
-        if is_win:
+        if is_win and not game_end:
             user_input = input('You win, one more(Y/N)?')
-        else: 
+        elif not is_win: 
             user_input = input('Input guess number : ')
         if user_input == "0":
             game_end = True
