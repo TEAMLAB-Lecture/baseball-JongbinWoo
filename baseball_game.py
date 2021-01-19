@@ -275,7 +275,8 @@ def main():
                     random_number = str(get_not_duplicated_three_digit_number())
                     print("Random Number is : ", random_number)
                 if is_no(user_input):
-                    game_end = True    
+                    game_end = True  
+                    break  
             else:
                 print("Wrong Input, Input again")           
         else:
